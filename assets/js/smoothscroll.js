@@ -35,7 +35,7 @@ jQuery(function($){ $.localScroll({filter:'.smoothScroll'}); });
 $(function() {
     // Cache selectors
     var topMenu = $(".custom-navbar"),
-        topMenuHeight = topMenu.outerHeight()+100,
+        topMenuHeight = topMenu.outerHeight()+150,
         // All list items
         menuItems = topMenu.find("a"),
         // Anchors corresponding to menu items
